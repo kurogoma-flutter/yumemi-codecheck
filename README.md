@@ -2,15 +2,44 @@
 
 株式会社ゆめみのコードチェックにチャレンジ
 
-## Getting Started
+## ライセンス含め課題リポジトリ
+https://github.com/yumemi-inc/flutter-engineer-codecheck
 
-This project is a starting point for a Flutter application.
+## 要件概要
+- 何かしらのキーワードを入力できる
+- 入力したキーワードで GitHub のリポジトリを検索できる
+- GitHub のリポジトリを検索する際、GitHub API（search/repositories）を利用する
+- github | Dart Package のようなパッケージは利用せず、API を呼ぶ処理を自分で実装すること
+- 検索結果は一覧で概要（リポジトリ名）を表示する
+- 検索結果のアイテムをタップしたら、該当リポジトリの詳細（リポジトリ名、オーナーアイコン、プロジェクト言語、Star 数、Watcher 数、Fork 数、Issue 数）を表示する
 
-A few resources to get you started if this is your first Flutter project:
+## 評価ポイント
+- レビューのしやすさ
+  - README の充実
+  - 適切なコメント
+  - GitHub のプルリクエスト機能などの利用
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Git
+  - 適切な gitignore の設定
+  - 適切なコミット粒度
+  - 適切なブランチ運用
+  - 簡潔性・可読性・安全性・保守性の高いコード
+  - Dart の言語機能を適切に使いこなせているか
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- テスト
+  - テストが導入しやすい構成
+  - Unit・UI テストがある
+
+- UI/UX
+  - エラー発生時の処理
+  - 画面回転・様々な画面サイズ対応
+  - Theme の適切な利用・ダークモードの対応
+  - 多言語対応
+  - アニメーションなど
+
+- CI/CD
+  - ビルド
+  - テスト
+  - リント
+  - フォーマット
+  - 仮のデプロイ環境
