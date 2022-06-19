@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "270145344400",
+    "project_id": "yumemi-dev-codecheck",
+    "storage_bucket": "yumemi-dev-codecheck.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270145344400:android:564509b446769ff4aa9915",
+        "android_client_info": {
+          "package_name": "com.app.yumemi.code.check.yumemi_codecheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270145344400-l4lubs2pl5q3v5g9uahq09ibbreh9rsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrREgrDTdKtPoyd2eJI81V0H15nmMnBJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270145344400-l4lubs2pl5q3v5g9uahq09ibbreh9rsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
