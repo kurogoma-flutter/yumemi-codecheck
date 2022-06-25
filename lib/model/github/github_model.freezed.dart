@@ -30,14 +30,14 @@ mixin _$Github {
   String get url => throw _privateConstructorUsedError;
   @JsonKey(name: 'language')
   String get language => throw _privateConstructorUsedError;
-  @JsonKey(name: 'forks_count')
-  int get forks_count => throw _privateConstructorUsedError;
-  @JsonKey(name: 'stargazers_count')
-  int get stargazers_count => throw _privateConstructorUsedError;
-  @JsonKey(name: 'watchers_count')
-  int get watchers_count => throw _privateConstructorUsedError;
-  @JsonKey(name: 'open_issues_count')
-  int get open_issues_count => throw _privateConstructorUsedError;
+  @JsonKey(name: 'forksCount')
+  int get forksCount => throw _privateConstructorUsedError;
+  @JsonKey(name: 'stargazersCount')
+  int get stargazersCount => throw _privateConstructorUsedError;
+  @JsonKey(name: 'watchersCount')
+  int get watchersCount => throw _privateConstructorUsedError;
+  @JsonKey(name: 'openIssuesCount')
+  int get openIssuesCount => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
@@ -54,10 +54,10 @@ abstract class $GithubCopyWith<$Res> {
       @JsonKey(name: 'owner') Map<String, String> owner,
       @JsonKey(name: 'url') String url,
       @JsonKey(name: 'language') String language,
-      @JsonKey(name: 'forks_count') int forks_count,
-      @JsonKey(name: 'stargazers_count') int stargazers_count,
-      @JsonKey(name: 'watchers_count') int watchers_count,
-      @JsonKey(name: 'open_issues_count') int open_issues_count});
+      @JsonKey(name: 'forksCount') int forksCount,
+      @JsonKey(name: 'stargazersCount') int stargazersCount,
+      @JsonKey(name: 'watchersCount') int watchersCount,
+      @JsonKey(name: 'openIssuesCount') int openIssuesCount});
 }
 
 /// @nodoc
@@ -75,10 +75,10 @@ class _$GithubCopyWithImpl<$Res> implements $GithubCopyWith<$Res> {
     Object? owner = freezed,
     Object? url = freezed,
     Object? language = freezed,
-    Object? forks_count = freezed,
-    Object? stargazers_count = freezed,
-    Object? watchers_count = freezed,
-    Object? open_issues_count = freezed,
+    Object? forksCount = freezed,
+    Object? stargazersCount = freezed,
+    Object? watchersCount = freezed,
+    Object? openIssuesCount = freezed,
   }) {
     return _then(_value.copyWith(
       name: name == freezed
@@ -101,21 +101,21 @@ class _$GithubCopyWithImpl<$Res> implements $GithubCopyWith<$Res> {
           ? _value.language
           : language // ignore: cast_nullable_to_non_nullable
               as String,
-      forks_count: forks_count == freezed
-          ? _value.forks_count
-          : forks_count // ignore: cast_nullable_to_non_nullable
+      forksCount: forksCount == freezed
+          ? _value.forksCount
+          : forksCount // ignore: cast_nullable_to_non_nullable
               as int,
-      stargazers_count: stargazers_count == freezed
-          ? _value.stargazers_count
-          : stargazers_count // ignore: cast_nullable_to_non_nullable
+      stargazersCount: stargazersCount == freezed
+          ? _value.stargazersCount
+          : stargazersCount // ignore: cast_nullable_to_non_nullable
               as int,
-      watchers_count: watchers_count == freezed
-          ? _value.watchers_count
-          : watchers_count // ignore: cast_nullable_to_non_nullable
+      watchersCount: watchersCount == freezed
+          ? _value.watchersCount
+          : watchersCount // ignore: cast_nullable_to_non_nullable
               as int,
-      open_issues_count: open_issues_count == freezed
-          ? _value.open_issues_count
-          : open_issues_count // ignore: cast_nullable_to_non_nullable
+      openIssuesCount: openIssuesCount == freezed
+          ? _value.openIssuesCount
+          : openIssuesCount // ignore: cast_nullable_to_non_nullable
               as int,
     ));
   }
@@ -132,10 +132,10 @@ abstract class _$$_GithubCopyWith<$Res> implements $GithubCopyWith<$Res> {
       @JsonKey(name: 'owner') Map<String, String> owner,
       @JsonKey(name: 'url') String url,
       @JsonKey(name: 'language') String language,
-      @JsonKey(name: 'forks_count') int forks_count,
-      @JsonKey(name: 'stargazers_count') int stargazers_count,
-      @JsonKey(name: 'watchers_count') int watchers_count,
-      @JsonKey(name: 'open_issues_count') int open_issues_count});
+      @JsonKey(name: 'forksCount') int forksCount,
+      @JsonKey(name: 'stargazersCount') int stargazersCount,
+      @JsonKey(name: 'watchersCount') int watchersCount,
+      @JsonKey(name: 'openIssuesCount') int openIssuesCount});
 }
 
 /// @nodoc
@@ -154,10 +154,10 @@ class __$$_GithubCopyWithImpl<$Res> extends _$GithubCopyWithImpl<$Res>
     Object? owner = freezed,
     Object? url = freezed,
     Object? language = freezed,
-    Object? forks_count = freezed,
-    Object? stargazers_count = freezed,
-    Object? watchers_count = freezed,
-    Object? open_issues_count = freezed,
+    Object? forksCount = freezed,
+    Object? stargazersCount = freezed,
+    Object? watchersCount = freezed,
+    Object? openIssuesCount = freezed,
   }) {
     return _then(_$_Github(
       name: name == freezed
@@ -180,21 +180,21 @@ class __$$_GithubCopyWithImpl<$Res> extends _$GithubCopyWithImpl<$Res>
           ? _value.language
           : language // ignore: cast_nullable_to_non_nullable
               as String,
-      forks_count: forks_count == freezed
-          ? _value.forks_count
-          : forks_count // ignore: cast_nullable_to_non_nullable
+      forksCount: forksCount == freezed
+          ? _value.forksCount
+          : forksCount // ignore: cast_nullable_to_non_nullable
               as int,
-      stargazers_count: stargazers_count == freezed
-          ? _value.stargazers_count
-          : stargazers_count // ignore: cast_nullable_to_non_nullable
+      stargazersCount: stargazersCount == freezed
+          ? _value.stargazersCount
+          : stargazersCount // ignore: cast_nullable_to_non_nullable
               as int,
-      watchers_count: watchers_count == freezed
-          ? _value.watchers_count
-          : watchers_count // ignore: cast_nullable_to_non_nullable
+      watchersCount: watchersCount == freezed
+          ? _value.watchersCount
+          : watchersCount // ignore: cast_nullable_to_non_nullable
               as int,
-      open_issues_count: open_issues_count == freezed
-          ? _value.open_issues_count
-          : open_issues_count // ignore: cast_nullable_to_non_nullable
+      openIssuesCount: openIssuesCount == freezed
+          ? _value.openIssuesCount
+          : openIssuesCount // ignore: cast_nullable_to_non_nullable
               as int,
     ));
   }
@@ -209,10 +209,10 @@ class _$_Github extends _Github {
       @JsonKey(name: 'owner') required final Map<String, String> owner,
       @JsonKey(name: 'url') required this.url,
       @JsonKey(name: 'language') required this.language,
-      @JsonKey(name: 'forks_count') required this.forks_count,
-      @JsonKey(name: 'stargazers_count') required this.stargazers_count,
-      @JsonKey(name: 'watchers_count') required this.watchers_count,
-      @JsonKey(name: 'open_issues_count') required this.open_issues_count})
+      @JsonKey(name: 'forksCount') required this.forksCount,
+      @JsonKey(name: 'stargazersCount') required this.stargazersCount,
+      @JsonKey(name: 'watchersCount') required this.watchersCount,
+      @JsonKey(name: 'openIssuesCount') required this.openIssuesCount})
       : _owner = owner,
         super._();
 
@@ -240,21 +240,21 @@ class _$_Github extends _Github {
   @JsonKey(name: 'language')
   final String language;
   @override
-  @JsonKey(name: 'forks_count')
-  final int forks_count;
+  @JsonKey(name: 'forksCount')
+  final int forksCount;
   @override
-  @JsonKey(name: 'stargazers_count')
-  final int stargazers_count;
+  @JsonKey(name: 'stargazersCount')
+  final int stargazersCount;
   @override
-  @JsonKey(name: 'watchers_count')
-  final int watchers_count;
+  @JsonKey(name: 'watchersCount')
+  final int watchersCount;
   @override
-  @JsonKey(name: 'open_issues_count')
-  final int open_issues_count;
+  @JsonKey(name: 'openIssuesCount')
+  final int openIssuesCount;
 
   @override
   String toString() {
-    return 'Github(name: $name, description: $description, owner: $owner, url: $url, language: $language, forks_count: $forks_count, stargazers_count: $stargazers_count, watchers_count: $watchers_count, open_issues_count: $open_issues_count)';
+    return 'Github(name: $name, description: $description, owner: $owner, url: $url, language: $language, forksCount: $forksCount, stargazersCount: $stargazersCount, watchersCount: $watchersCount, openIssuesCount: $openIssuesCount)';
   }
 
   @override
@@ -269,13 +269,13 @@ class _$_Github extends _Github {
             const DeepCollectionEquality().equals(other.url, url) &&
             const DeepCollectionEquality().equals(other.language, language) &&
             const DeepCollectionEquality()
-                .equals(other.forks_count, forks_count) &&
+                .equals(other.forksCount, forksCount) &&
             const DeepCollectionEquality()
-                .equals(other.stargazers_count, stargazers_count) &&
+                .equals(other.stargazersCount, stargazersCount) &&
             const DeepCollectionEquality()
-                .equals(other.watchers_count, watchers_count) &&
+                .equals(other.watchersCount, watchersCount) &&
             const DeepCollectionEquality()
-                .equals(other.open_issues_count, open_issues_count));
+                .equals(other.openIssuesCount, openIssuesCount));
   }
 
   @JsonKey(ignore: true)
@@ -287,10 +287,10 @@ class _$_Github extends _Github {
       const DeepCollectionEquality().hash(_owner),
       const DeepCollectionEquality().hash(url),
       const DeepCollectionEquality().hash(language),
-      const DeepCollectionEquality().hash(forks_count),
-      const DeepCollectionEquality().hash(stargazers_count),
-      const DeepCollectionEquality().hash(watchers_count),
-      const DeepCollectionEquality().hash(open_issues_count));
+      const DeepCollectionEquality().hash(forksCount),
+      const DeepCollectionEquality().hash(stargazersCount),
+      const DeepCollectionEquality().hash(watchersCount),
+      const DeepCollectionEquality().hash(openIssuesCount));
 
   @JsonKey(ignore: true)
   @override
@@ -315,14 +315,14 @@ abstract class _Github extends Github {
           required final String url,
       @JsonKey(name: 'language')
           required final String language,
-      @JsonKey(name: 'forks_count')
-          required final int forks_count,
-      @JsonKey(name: 'stargazers_count')
-          required final int stargazers_count,
-      @JsonKey(name: 'watchers_count')
-          required final int watchers_count,
-      @JsonKey(name: 'open_issues_count')
-          required final int open_issues_count}) = _$_Github;
+      @JsonKey(name: 'forksCount')
+          required final int forksCount,
+      @JsonKey(name: 'stargazersCount')
+          required final int stargazersCount,
+      @JsonKey(name: 'watchersCount')
+          required final int watchersCount,
+      @JsonKey(name: 'openIssuesCount')
+          required final int openIssuesCount}) = _$_Github;
   const _Github._() : super._();
 
   factory _Github.fromJson(Map<String, dynamic> json) = _$_Github.fromJson;
@@ -343,17 +343,17 @@ abstract class _Github extends Github {
   @JsonKey(name: 'language')
   String get language => throw _privateConstructorUsedError;
   @override
-  @JsonKey(name: 'forks_count')
-  int get forks_count => throw _privateConstructorUsedError;
+  @JsonKey(name: 'forksCount')
+  int get forksCount => throw _privateConstructorUsedError;
   @override
-  @JsonKey(name: 'stargazers_count')
-  int get stargazers_count => throw _privateConstructorUsedError;
+  @JsonKey(name: 'stargazersCount')
+  int get stargazersCount => throw _privateConstructorUsedError;
   @override
-  @JsonKey(name: 'watchers_count')
-  int get watchers_count => throw _privateConstructorUsedError;
+  @JsonKey(name: 'watchersCount')
+  int get watchersCount => throw _privateConstructorUsedError;
   @override
-  @JsonKey(name: 'open_issues_count')
-  int get open_issues_count => throw _privateConstructorUsedError;
+  @JsonKey(name: 'openIssuesCount')
+  int get openIssuesCount => throw _privateConstructorUsedError;
   @override
   @JsonKey(ignore: true)
   _$$_GithubCopyWith<_$_Github> get copyWith =>
