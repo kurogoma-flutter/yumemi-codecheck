@@ -12,6 +12,7 @@ dependencies:
   cloud_firestore: ^3.1.15
   cloud_functions: ^3.2.17
   cupertino_icons: ^1.0.2
+  dio:
   firebase_analytics: ^9.1.10
   firebase_auth: ^3.3.18
   firebase_core: ^1.17.0
@@ -23,17 +24,18 @@ dependencies:
   http: ^0.13.4
   import_sorter: ^4.6.0
   intl: ^0.17.0
+  retrofit:
   uuid: ^3.0.5
 
 dev_dependencies:
+  build_runner: ^2.1.11
   flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
+  freezed: ^2.0.3+1
   json_serializable: ^6.2.0
   pedantic_mono: any
-  freezed: ^2.0.3+1
-  build_runner: ^2.1.11
-
+  retrofit_generator:
 
 flutter:
 

@@ -11,10 +11,10 @@ abstract class Github with _$Github {
     @JsonKey(name: 'owner') required Map<String, String> owner,
     @JsonKey(name: 'url') required String url,
     @JsonKey(name: 'language') required String language,
-    @JsonKey(name: 'forks_count') required int forks_count,
-    @JsonKey(name: 'stargazers_count') required int stargazers_count,
-    @JsonKey(name: 'watchers_count') required int watchers_count,
-    @JsonKey(name: 'open_issues_count') required int open_issues_count,
+    @JsonKey(name: 'forksCount') required int forksCount,
+    @JsonKey(name: 'stargazersCount') required int stargazersCount,
+    @JsonKey(name: 'watchersCount') required int watchersCount,
+    @JsonKey(name: 'openIssuesCount') required int openIssuesCount,
   }) = _Github;
 
   const Github._();
